@@ -15,8 +15,9 @@ plugins:
       - WEBEMBEDDED
       - TVHTML5EMBEDDED
       - IOS
-    oauth:
-      enabled: false
+oauth:
+      enabled: true
+      skipInitialization: true
 
 lavalink:
   plugins:
