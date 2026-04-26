@@ -10,8 +10,8 @@ lavalink:
     password: "partydemonsecret"
     sources:
       youtube: false
-      bandcamp: true
       soundcloud: true
+      bandcamp: true
       twitch: true
       vimeo: true
       http: true
@@ -22,22 +22,7 @@ lavalink:
 
 plugins:
   youtube:
-    enabled: true
-    allowSearch: true
-    allowDirectVideoIds: true
-    allowDirectPlaylistIds: true
-    clients:
-      - MUSIC
-      - WEB
-      - WEBEMBEDDED
-      - IOS
-    oauth:
-      enabled: true
-      skipInitialization: true
-      refreshToken: "1//06M1UhX8oC5lTCgYIARAAGAYSNwF-L9IrR9QeIbFn-GWY7HocwhZnV0VPC2tfTecRsnbTiDa65lszHuZWWIfrowyMu3KNkgl8oW8"
-    clients-with-oauth:
-      - MUSIC
-      - WEB
+    enabled: false
 
 metrics:
   prometheus:
