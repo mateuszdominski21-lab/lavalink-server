@@ -21,7 +21,7 @@ oauth:
 
 lavalink:
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.11.3"
+  - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.0"
       snapshot: false
   server:
     password: "partydemonsecret"
