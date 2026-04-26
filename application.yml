@@ -14,6 +14,9 @@ plugins:
       - WEB
       - WEBEMBEDDED
       - TVHTML5EMBEDDED
+      - IOS
+    oauth:
+      enabled: false
 
 lavalink:
   plugins:
@@ -32,15 +35,12 @@ lavalink:
     bufferDurationMs: 400
     frameBufferDurationMs: 5000
     playerUpdateInterval: 5
+    opusEncodingQuality: 10
+    resamplingQuality: LOW
 
 metrics:
   prometheus:
     enabled: false
 
 sentry:
-  dsn: ""
-
-logging:
-  level:
-    root: INFO
-    lavalink: INFO
+  dsn:
