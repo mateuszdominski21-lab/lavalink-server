@@ -27,11 +27,10 @@ plugins:
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
     clients:
+      - ANDROID_LITE
       - MUSIC
       - WEB
       - WEBEMBEDDED
-      - TVHTML5EMBEDDED
-      - IOS
     oauth:
       enabled: true
       skipInitialization: true
