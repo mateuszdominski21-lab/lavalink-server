@@ -19,8 +19,6 @@ lavalink:
     bufferDurationMs: 400
     frameBufferDurationMs: 5000
     playerUpdateInterval: 5
-    opusEncodingQuality: 10
-    resamplingQuality: LOW
 
 plugins:
   youtube:
@@ -34,6 +32,9 @@ plugins:
       - WEBEMBEDDED
       - TVHTML5EMBEDDED
       - IOS
+    oauth:
+      enabled: true
+      skipInitialization: false
 
 metrics:
   prometheus:
